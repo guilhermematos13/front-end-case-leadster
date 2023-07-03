@@ -5,7 +5,7 @@ import { Plus_Jakarta_Sans } from 'next/font/google'
 
 const font = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  weight: ['400', '700', '600', '500'],
+  weight: ['400', '700', '600', '500', '800'],
 })
 
 export const metadata = {

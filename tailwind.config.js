@@ -11,6 +11,9 @@ module.exports = {
         'blue-primary': '#2c83fb',
         'blue-secondary': '#1f76f0',
       },
+      screens: {
+        xs: '320px',
+      },
     },
   },
   plugins: [],
