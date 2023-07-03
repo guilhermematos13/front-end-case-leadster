@@ -3,7 +3,7 @@ import FontImage from '../../../public/asset-header.png'
 
 export function Banner() {
   return (
-    <div className="flex flex flex-col items-center justify-center bg-blue-primary/10 p-28">
+    <div className="flex flex-col items-center justify-center bg-blue-primary/10 p-28">
       <span className="mb-5 rounded-full rounded-bl-md border-2 border-blue-primary px-6 py-1 text-sm font-bold uppercase text-blue-primary hover:bg-blue-primary hover:text-gray-50 hover:transition-colors">
         Webinars Exclusivos
       </span>
