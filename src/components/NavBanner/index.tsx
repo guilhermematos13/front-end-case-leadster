@@ -4,8 +4,8 @@ import { Select } from '../Select'
 
 export function NavBanner() {
   return (
-    <div className="mx-auto mt-16 flex w-full max-w-[1200px] justify-between">
-      <div className="flex gap-4">
+    <div className="mx-auto flex w-full max-w-[1200px] justify-between xs:mt-6 xs:flex-col xs:items-center xs:gap-4 xs:px-2 md:mt-16 xl:flex-row">
+      <div className="flex gap-4 xs:flex-col xs:justify-center md:flex-row lg:justify-normal">
         <Button title="Agências " />
         <Button title="Chatbot" />
         <Button isSelected title="Marketing Digital" />

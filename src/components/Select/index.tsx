@@ -17,10 +17,7 @@ import { SelectProps } from './interface'
 import { CaretDown } from '@phosphor-icons/react'
 
 export const Select = forwardRef(
-  (
-    { title, options, placeholder, ...props }: SelectProps,
-    ref: ForwardedRef<never>,
-  ) => {
+  ({ title, options, placeholder }: SelectProps, ref: ForwardedRef<never>) => {
     const [isOpen, setOpen] = useState(false)
     const [selectedItem, setSelectedItem] = useState<undefined | string>()
 
@@ -59,7 +56,7 @@ export const Select = forwardRef(
           >
             {options.map((item, index) => (
               <div
-                className="bg delay-50 cursor-pointer border-b border-b-blue-secondary px-2 py-4 transition-colors ease-in first-of-type:rounded-t-xl last-of-type:rounded-b-xl last-of-type:border-none hover:bg-blue-light"
+                className="delay-50 cursor-pointer border-b border-b-blue-secondary px-2 py-4 transition-colors ease-in first-of-type:rounded-t-xl last-of-type:rounded-b-xl last-of-type:border-none hover:bg-blue-light"
                 key={index}
                 onClick={() => setSelectedItem(item.value)}
               >

@@ -8,7 +8,13 @@ export const SelectWrapper = styled.div`
 `
 
 export const SelectLabel = styled.label`
-  font-size: 1rem;
+  @media (min-width: 320px) {
+    font-size: 0.875rem;
+  }
+
+  @media (min-width: 425px) {
+    font-size: 1rem;
+  }
 `
 
 export const SelectOption = styled.div`
