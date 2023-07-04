@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         'blue-primary': '#2c83fb',
         'blue-secondary': '#1f76f0',
+        'blue-light': '#d4e0f4',
       },
       screens: {
         xs: '320px',
