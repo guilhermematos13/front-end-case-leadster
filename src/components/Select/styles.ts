@@ -8,6 +8,8 @@ export const SelectWrapper = styled.div`
 `
 
 export const SelectLabel = styled.label`
+  font-weight: 700;
+
   @media (min-width: 320px) {
     font-size: 0.875rem;
   }
