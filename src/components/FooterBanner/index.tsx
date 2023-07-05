@@ -10,18 +10,18 @@ export function FooterBanner() {
       <div className="xs:hidden md:block">
         <Image src={GraphImage} alt="" height={300} width={500} />
       </div>
-      <div className=" mt-32 xs:mt-8 xs:w-full md:w-2/3 lg:w-1/3 ">
-        <p className="text-gray-800 xs:text-xl md:text-2xl lg:text-4xl">
+      <div className="xs:mt-6 xs:w-full md:w-2/3 lg:mt-32 lg:w-1/3">
+        <p className="text-gray-800 xs:text-xl md:text-2xl xl:text-2xl">
           Pronto para triplicar sua
         </p>
-        <strong className="mt-2 font-extrabold text-gray-800 xs:text-xl md:text-2xl lg:text-4xl">
+        <strong className="mt-2 font-extrabold text-gray-800 xs:text-xl md:text-2xl xl:text-4xl">
           Geração de Leads?
         </strong>
         <p className="mt-2 text-sm text-gray-800">
           Criação e ativação em <b className="text-gray-800">4 minutos</b>.
         </p>
         <div className="mt-4 w-full border border-gray-300" />
-        <div className="mt-4 flex gap-4 xs:flex-col xs:items-center lg:flex-row">
+        <div className="mt-4 flex gap-4 xs:flex-col xs:items-center xl:flex-row">
           <div className="flex cursor-pointer items-center rounded-full bg-blue-primary p-4 font-bold uppercase text-gray-50 hover:animate-wiggle hover:border hover:border-blue-primary hover:bg-green-50 hover:text-blue-primary hover:transition-colors md:text-center">
             Ver demonstração
           </div>
