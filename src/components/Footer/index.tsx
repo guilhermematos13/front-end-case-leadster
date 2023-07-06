@@ -19,7 +19,7 @@ export function Footer() {
             Transformando visitantes em clientes.
           </p>
         </div>
-        <div className="mt-6 grid grid-cols-4 xs:flex xs:w-full xs:justify-center md:grid md:grid-cols-4">
+        <div className="mt-6 xs:flex xs:w-full xs:justify-center md:grid md:grid-cols-4">
           <div className="xs:hidden md:flex md:flex-col">
             <FooterTitle title="Links Príncipais" />
             <FooterLinks title="Home" />
@@ -81,7 +81,7 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-10 flex justify-between border-t border-t-gray-300 px-96 py-10 xs:p-4 2xl:px-96">
+      <div className="mt-10 flex justify-between border-t border-t-gray-300 xs:p-4 md:py-10 2xl:px-96">
         <p className="text-gray-500 xs:text-xxs lg:text-xs">
           Copyright &copy; 2015 - 2022 Todos os direitos reservados |
           <span className="text-blue-primary"> Leadster</span>
