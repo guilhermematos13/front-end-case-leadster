@@ -19,22 +19,22 @@ export function Footer() {
             Transformando visitantes em clientes.
           </p>
         </div>
-        <div className="mt-6 grid grid-cols-4">
-          <div>
+        <div className="mt-6 grid grid-cols-4 xs:flex xs:w-full xs:justify-center md:grid md:grid-cols-4">
+          <div className="xs:hidden md:flex md:flex-col">
             <FooterTitle title="Links Príncipais" />
             <FooterLinks title="Home" />
             <FooterLinks title="Ferramentas" />
             <FooterLinks title="Preços" />
             <FooterLinks title="Contato" />
           </div>
-          <div>
+          <div className="xs:hidden md:flex md:flex-col">
             <FooterTitle title="Cases" />
             <FooterLinks title="Geração de Leads B2B" />
             <FooterLinks title="Geração de Leads Software" />
             <FooterLinks title="Geração de Leads em Imobiliária" />
             <FooterLinks title="Cases de Sucesso" />
           </div>
-          <div>
+          <div className="xs:hidden md:flex md:flex-col">
             <FooterTitle title="Materiais" />
             <FooterLinks title="Blog" />
             <FooterLinks title="Parceria com Agências" />
@@ -81,12 +81,12 @@ export function Footer() {
           </div>
         </div>
       </div>
-      <div className="mt-10 flex justify-between border-t border-t-gray-300 px-96 py-10">
-        <p className="text-xs text-gray-500">
+      <div className="mt-10 flex justify-between border-t border-t-gray-300 px-96 py-10 xs:p-4 2xl:px-96">
+        <p className="text-gray-500 xs:text-xxs lg:text-xs">
           Copyright &copy; 2015 - 2022 Todos os direitos reservados |
           <span className="text-blue-primary"> Leadster</span>
         </p>
-        <p className="text-xs text-gray-500">
+        <p className="text-gray-500 xs:text-xxs lg:text-xs">
           Rua José Loureiro - 464 - Centro - Curitiba PR - CEP: 80010-000 |
           Temos de uso.
         </p>
