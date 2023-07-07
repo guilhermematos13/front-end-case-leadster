@@ -12,8 +12,12 @@ module.exports = {
         'blue-secondary': '#1f76f0',
         'blue-light': '#d4e0f4',
       },
+      fontSize: {
+        xxs: '10px',
+      },
       screens: {
         xs: '320px',
+        '2xl': '1600px',
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
