@@ -18,7 +18,7 @@ export default function Home() {
         <MainContent />
         <FooterBanner />
         <Footer />
-        <Modal title="Teste">Teste</Modal>
+        <Modal title="Teste" />
       </Dialog.Root>
     </div>
   )
