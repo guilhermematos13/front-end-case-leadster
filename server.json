@@ -5,126 +5,144 @@
             "title": "Por que o Marketing Conversacional é a grande tendência de 2023?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) revela por que o Marketing Conversacional é a grande tendência de 2023.",
             "url": "https://www.youtube.com/watch?v=uMWSbDyz2So",
-            "date": "18/03/2023"
+            "date": "18/03/2023",
+            "type": "Chatbot"
         },
         {
             "id": 2,
             "title": "Os passos do Marketing Digital para Startups (Webinar completo)",
             "description": "Na mentoria 'Os passos do Marketing Digital para Startups', oferecida pela LegalHub, o CMO da Leadster, Gustavo Luby compartilha com jovens empreendedores os desafios de empreender na área de tecnologia e as estratégias que levaram a Leadster a conquistar 2800 clientes e a sua terceira rodada de investimentos em 3 anos de existência.",
             "url": "https://www.youtube.com/watch?v=gK8uPCkka7c",
-            "date": "14/03/2023"
+            "date": "14/03/2023",
+            "type": "Chatbot"
         },
         {
             "id": 3,
             "title": "Referências para Startups: Livros, Cursos e Profissionais",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) revela suas referências dentro do marketing para startups.",
             "url": "https://www.youtube.com/watch?v=uKlBCWtbw9w",
-            "date": "13/03/2023"
+            "date": "13/03/2023",
+            "type": "Chatbot"
         },
         {
             "id": 4,
             "title": "Startups: O que fazer após captar os primeiros clientes?",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) revela os próximos passos para sua startup após a conquista dos primeiros clientes.",
             "url": "https://www.youtube.com/watch?v=n6x4blVLYP4",
-            "date": "10/03/2023"
+            "date": "10/03/2023",
+            "type": "Chatbot"
         },
         {
             "id": 5,
             "title": "Model-Market Fit: Os tipos de cliente que sua empresa pode atender",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) fala sobre o 'model-market fit', conceito que ajuda a entender os tipos de cliente que sua empresa pode atender, contribuindo na construção do Perfil de Cliente Ideal (ICP) e das estratégias de marketing e vendas.",
             "url": "https://www.youtube.com/watch?v=y8U2omuF3aM",
-            "date": "09/03/2023"
+            "date": "09/03/2023",
+            "type": "Agências"
         },
         {
             "id": 6,
             "title": "Model-Channel Fit: Entenda em quais canais atuar a partir do seu Modelo de Negócio",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) fala sobre o 'model-market fit', que revela em quais canais você poderá atuar a partir do seu modelo de negócio.",
             "url": "https://www.youtube.com/watch?v=TNO96OtJo0o",
-            "date": "08/03/2023"
+            "date": "08/03/2023",
+            "type": "Agências"
         },
         {
             "id": 7,
             "title": "Product-Channel Fit: Como distribuir o seu produto no mercado?",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) fala sobre o próximo passo depois de encontrar o 'product-market fit' (uma demanda real pelo produto no mercado): o 'product-channel fit'.",
             "url": "https://www.youtube.com/watch?v=_rCJ4QzYllo",
-            "date": "07/03/2023"
+            "date": "07/03/2023",
+            "type": "Agências"
         },
         {
             "id": 8,
             "title": "Product-Market Fit: O que é e por que sua Startup precisa dele para sobreviver?",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) fala sobre a importância de ter um produto que atenda uma necessidade real de mercado e tenha viabilidade técnica e econômica - o famoso 'product-market fit'.",
             "url": "https://www.youtube.com/watch?v=b0KlEQ7YLQ4",
-            "date": "06/03/2023"
+            "date": "06/03/2023",
+            "type": "Agências"
         },
         {
             "id": 9,
             "title": "Mercado, Produto, Modelo e Canais - O Mix de variáveis do Marketing Digital",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) demonstra como o mix de variáveis do Marketing Digital afeta o seu negócio.",
             "url": "https://www.youtube.com/watch?v=aT88TbvdPEY",
-            "date": "03/03/2023"
+            "date": "03/03/2023",
+            "type": "Agências"
         },
         {
             "id": 10,
             "title": "Estratégias de curto e longo prazo no Marketing Digital",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) explica importância de encontrar um equilíbrio entre estratégias de curto e longo prazo no Marketing Digital.",
             "url": "https://www.youtube.com/watch?v=PHAfkczqlMY",
-            "date": "02/03/2023"
+            "date": "02/03/2023",
+            "type": "Marketing Digital"
         },
         {
             "id": 11,
             "title": "Como surgiu a Leadster e os desafios de Empreender na área de Tecnologia",
             "description": "Neste corte da mentoria 'Os passos do Marketing Digital para Startups', Gustavo Luby (Leadster) apresenta o histórico da Leadster, primeira plataforma de Marketing Conversacional do Brasil, e fala sobre os desafios de empreender na área de tecnologia.",
             "url": "https://www.youtube.com/watch?v=eGIQT6AdvS8",
-            "date": "01/03/2023"
+            "date": "01/03/2023",
+            "type": "Marketing Digital"
         },
         {
             "id": 12,
             "title": "Conheça as principais plataformas de Marketing Conversacional",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) apresenta as principais plataformas de Marketing Conversacional do mercado.",
             "url": "https://www.youtube.com/watch?v=yju8RTdhHQ0",
-            "date": "25/04/2023"
+            "date": "25/04/2023",
+            "type": "Marketing Digital"
         },
         {
             "id": 13,
             "title": "O Marketing Conversacional funciona em todos os segmentos de negócio?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) responde à pergunta 'O Marketing Conversacional funciona em todos os segmentos de negócio?'",
             "url": "https://www.youtube.com/watch?v=VZoPJxdu20c",
-            "date": "24/04/2023"
+            "date": "24/04/2023",
+            "type": "Marketing Digital"
         },
         {
             "id": 14,
             "title": "Qual é a diferença entre Marketing Digital, Marketing Conversacional e Marketing no WhatsApp?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) explica a diferença entre Marketing Digital, Marketing Conversacional e Marketing no WhatsApp.",
             "url": "https://www.youtube.com/watch?v=jmZv8kDH8fg",
-            "date": "20/04/2023"
+            "date": "20/04/2023",
+            "type": "Geração de Leads"
         },
         {
             "id": 15,
             "title": "Por que apostar no Marketing Conversacional? Conheça os benefícios para empresas",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) explica por que apostar no Marketing Conversacional e apresenta os benefícios para empresas.",
             "url": "https://www.youtube.com/watch?v=nPlyLHqDaJw",
-            "date": "19/04/2023"
+            "date": "19/04/2023",
+            "type": "Geração de Leads"
         },
         {
             "id": 16,
             "title": "Por que o Marketing Conversacional é a grande tendência de 2023?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', Fabrício Toledo (CEO da Leadster) revela por que o Marketing Conversacional é a grande tendência de 2023.",
             "url": "https://www.youtube.com/watch?v=uMWSbDyz2So",
-            "date": "18/04/2023"
+            "date": "18/04/2023",
+            "type": "Geração de Leads"
         },
         {
             "id": 17,
             "title": "Como usar a inteligência artificial nos negócios?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', John Martin (Consultor de SEO na SEO Martin) fala sobre como usar a inteligência artificial nos negócios.",
             "url": "https://www.youtube.com/watch?v=lzuB5jLaLWc",
-            "date": "17/04/2023"
+            "date": "17/04/2023",
+            "type": "Mídia Paga"
         },
         {
             "id": 18,
             "title": "Como usar a inteligência artificial para criar ações e campanhas de marketing?",
             "description": "Neste corte do webinar 'O Futuro do Marketing - 3 Tendências que vão Mudar (Quase) Tudo que sabemos sobre Marketing Digital', John Martin (Consultor de SEO na SEO Martin) revela como usar a inteligência artificial para criar ações e campanhas de marketing.",
             "url": "https://www.youtube.com/watch?v=UYg36xAU_vU",
-            "date": "14/04/2023"
+            "date": "14/04/2023",
+            "type": "Mídia Paga"
         }
     ]
 }

@@ -5,6 +5,7 @@ export const SelectWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 16px;
+  z-index: 10;
 `
 
 export const SelectLabel = styled.label`
@@ -49,4 +50,5 @@ export const SelectOptions = styled.div<SelectStyledProps>`
   border: 1px solid #000000;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
+  background-color: white;
 `
