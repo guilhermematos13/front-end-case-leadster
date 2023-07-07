@@ -1,6 +1,7 @@
 import { styled } from 'styled-components'
+import * as Dialog from '@radix-ui/react-dialog'
 
-export const Container = styled.div`
+export const Container = styled(Dialog.Trigger)`
   box-shadow: rgba(17, 12, 46, 0.15) 0px 12px 12px 0px;
   border-radius: 8px;
   overflow: hidden;
