@@ -4,7 +4,11 @@ import Photo from '../../../public/thumbnail.png'
 import { Container } from './styles'
 import { Play } from '@phosphor-icons/react'
 
-export function VideoBanner() {
+interface VideoBannerProps {
+  title: string
+}
+
+export function VideoBanner({ title }: VideoBannerProps) {
   return (
     <Container className="group">
       <div className="container-image">
@@ -15,9 +19,9 @@ export function VideoBanner() {
           </div>
         </div>
       </div>
-      <div className="title group-hover:text-blue-primary group-hover:transition-colors">
-        Como aumentar sua geracao de Leads feat. Traktor
-      </div>
+      <p className="title line-clamp-2 group-hover:text-blue-primary group-hover:transition-colors">
+        {title}
+      </p>
     </Container>
   )
 }
