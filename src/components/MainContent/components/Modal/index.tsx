@@ -3,7 +3,7 @@ import { FileDoc, FilePpt, FileXls, X } from '@phosphor-icons/react'
 import * as Dialog from '@radix-ui/react-dialog'
 import { ModalProps } from './interface'
 
-export function Modal({ title, description, url, id }: ModalProps) {
+export function Modal({ title, description, url }: ModalProps) {
   return (
     <Dialog.Portal>
       <Dialog.Overlay className="fixed inset-0 z-10 bg-black/40" />
