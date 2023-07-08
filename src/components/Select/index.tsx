@@ -17,9 +17,11 @@ import { SelectProps } from './interface'
 import { CaretDown } from '@phosphor-icons/react'
 
 export const Select = forwardRef(
-  ({ title, options, placeholder }: SelectProps, ref: ForwardedRef<never>) => {
+  (
+    { title, options, placeholder, setSelectedItem, selectedItem }: SelectProps,
+    ref: ForwardedRef<never>,
+  ) => {
     const [isOpen, setOpen] = useState(false)
-    const [selectedItem, setSelectedItem] = useState<undefined | string>()
 
     const toggleSelect = () => setOpen((prev) => !prev)
     const closeSelect = () => setOpen(false)

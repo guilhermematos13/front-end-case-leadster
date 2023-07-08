@@ -5,17 +5,17 @@ interface SelectDataProps {
 
 export const SelectData: SelectDataProps[] = [
   {
-    label: 'Teste',
-    value: 'Teste',
+    label: 'Data de Publicação',
+    value: 'date',
   },
 
   {
-    label: 'Teste2',
-    value: 'Teste2',
+    label: '[A - Z]',
+    value: 'asc',
   },
 
   {
-    label: 'Teste3',
-    value: 'Teste3',
+    label: '[Z - A]',
+    value: 'desc',
   },
 ]

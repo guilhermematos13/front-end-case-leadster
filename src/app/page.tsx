@@ -4,7 +4,6 @@ import { Footer } from '@/components/Footer'
 import { FooterBanner } from '@/components/FooterBanner'
 import { Header } from '@/components/Header'
 import { MainContent } from '@/components/MainContent'
-import { NavBanner } from '@/components/NavBanner'
 import * as Dialog from '@radix-ui/react-dialog'
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
       <Dialog.Root>
         <Header />
         <Banner />
-        <NavBanner />
         <MainContent />
         <FooterBanner />
         <Footer />

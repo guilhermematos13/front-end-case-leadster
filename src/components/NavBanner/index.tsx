@@ -1,8 +1,31 @@
 import { SelectData } from '@/data/SelectData'
 import { Button } from '../Button'
 import { Select } from '../Select'
+import {
+  Dispatch,
+  SetStateAction,
+  useCallback,
+  useEffect,
+  useState,
+} from 'react'
 
-export function NavBanner() {
+interface NavBannerProps {
+  setOrder: Dispatch<SetStateAction<string | undefined>>
+}
+
+export function NavBanner({ setOrder }: NavBannerProps) {
+  const [selectedItem, setSelectedItem] = useState<undefined | string>()
+
+  const handleSetOrder = useCallback(() => {
+    if (selectedItem === 'date') return setOrder(`_sort=${selectedItem}`)
+
+    return setOrder(`_order=${selectedItem}&_sort=title`)
+  }, [selectedItem, setOrder])
+
+  useEffect(() => {
+    selectedItem && handleSetOrder()
+  }, [selectedItem, handleSetOrder])
+
   return (
     <div>
       <div className="mx-auto flex w-full max-w-[1200px] justify-between xs:mt-6 xs:flex-col xs:items-center xs:gap-4 xs:px-2 md:mt-16 xl:flex-row">
@@ -15,8 +38,10 @@ export function NavBanner() {
         </div>
         <div className="flex items-center gap-4">
           <Select
+            selectedItem={selectedItem}
+            setSelectedItem={setSelectedItem}
             options={SelectData}
-            placeholder="Data da Publicação"
+            placeholder="Selecione"
             title="Ordernar por"
           />
         </div>
