@@ -15,18 +15,18 @@ export function MainContent() {
   const [totalPage, setTotalPage] = useState<number>(1)
   const [dataModal, setDataModal] = useState<ModalProps>()
   const [order, setOrder] = useState<string>()
+  const [filter, setFilter] = useState<string>()
 
   const limit = 9
 
   const getList = useCallback(() => {
     api
-      .get(`videos?_page=${pageNumber}&_limit=${limit}&${order}`)
+      .get(`videos?_page=${pageNumber}&_limit=${limit}&${order}&${filter}`)
       .then((response) => {
         setList(response.data)
         setTotalPage(response.headers['x-total-count'] / limit)
-        console.log(`videos?_page=${pageNumber}&_limit=${limit}&${order}`)
       })
-  }, [pageNumber, order])
+  }, [pageNumber, order, filter])
 
   useEffect(() => {
     getList()
@@ -52,7 +52,7 @@ export function MainContent() {
 
   return (
     <>
-      <NavBanner setOrder={setOrder} />
+      <NavBanner setFilter={setFilter} setOrder={setOrder} />
       <div className="mx-auto mt-10 w-full max-w-[1200px]">
         <div className="grid grid-cols-3 gap-8 xs:grid xs:grid-cols-1 xs:px-4 sm:grid sm:grid-cols-2 lg:grid lg:grid-cols-3">
           {list.map((data) => {
