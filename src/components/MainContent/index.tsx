@@ -7,6 +7,7 @@ import { PageNumberButton } from './components/PageNumberButton'
 import { Modal } from './components/Modal'
 import { ModalProps } from './components/Modal/interface'
 import { NavBanner } from '../NavBanner'
+import { toast } from 'react-hot-toast'
 
 export function MainContent() {
   const [list, setList] = useState<ListInterface[]>([])
@@ -25,6 +26,14 @@ export function MainContent() {
       .then((response) => {
         setList(response.data)
         setTotalPage(response.headers['x-total-count'] / limit)
+      })
+      .catch(() => {
+        toast.error('Algo deu Errado!', {
+          style: {
+            border: '1px solid #2c83fb',
+            padding: '16px',
+          },
+        })
       })
   }, [pageNumber, order, filter])
 
