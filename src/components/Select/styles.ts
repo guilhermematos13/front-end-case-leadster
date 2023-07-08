@@ -5,7 +5,7 @@ export const SelectWrapper = styled.div`
   display: flex;
   align-items: center;
   gap: 16px;
-  z-index: 1;
+  z-index: 5;
 `
 
 export const SelectLabel = styled.label`

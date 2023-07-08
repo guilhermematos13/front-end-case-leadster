@@ -3,14 +3,15 @@ import Image from 'next/image'
 import Photo from '../../../public/thumbnail.png'
 import { Container } from './styles'
 import { Play } from '@phosphor-icons/react'
+import { ButtonHTMLAttributes } from 'react'
 
-interface VideoBannerProps {
+interface VideoBannerProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   title: string
 }
 
-export function VideoBanner({ title }: VideoBannerProps) {
+export function VideoBanner({ title, ...props }: VideoBannerProps) {
   return (
-    <Container className="group">
+    <Container className="group" {...props}>
       <div className="container-image">
         <Image className="thumb" src={Photo} alt="" />
         <div className="overlay">

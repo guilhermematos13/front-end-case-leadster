@@ -1,16 +1,13 @@
 'use client'
 import { FileDoc, FilePpt, FileXls, X } from '@phosphor-icons/react'
 import * as Dialog from '@radix-ui/react-dialog'
+import { ModalProps } from './interface'
 
-interface ModalProps {
-  title: string
-}
-
-export function Modal({ title }: ModalProps) {
+export function Modal({ title, description, url, id }: ModalProps) {
   return (
     <Dialog.Portal>
-      <Dialog.Overlay className="fixed inset-0 bg-black/40" />
-      <Dialog.Content className="fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg border-t-4 border-t-blue-primary bg-gray-50 py-6 shadow-lg shadow-black/50 xs:w-full xs:px-2 md:w-1/2 md:px-8 lg:max-w-xl">
+      <Dialog.Overlay className="fixed inset-0 z-10 bg-black/40" />
+      <Dialog.Content className=" fixed left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2 rounded-lg border-t-4 border-t-blue-primary bg-gray-50 py-6 shadow-lg shadow-black/50 xs:w-full xs:px-2 md:w-1/2 md:px-8 lg:max-w-xl">
         <div className="mb-6 flex justify-between gap-8">
           <div className="w-8" />
           <Dialog.Title className="text-2xl font-semibold text-gray-800 xs:text-base md:text-2xl">
@@ -26,7 +23,7 @@ export function Modal({ title }: ModalProps) {
         <div className="flex flex-col">
           <iframe
             className="xs:h-48 xs:w-full sm:h-80  md:max-h-[315px] md:max-w-[560px]"
-            src="https://www.youtube.com/embed/b0KlEQ7YLQ4"
+            src={url}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
@@ -34,10 +31,7 @@ export function Modal({ title }: ModalProps) {
             <strong className="text-gray-800">Descrição</strong>
             <div className="mb-3 mt-1 w-full border border-gray-300" />
             <p className="text-gray-800 xs:text-sm md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatem, suscipit dolores similique cumque dicta magni ex dolor
-              error expedita quam eum. Nemo dolores error minima quasi animi
-              suscipit non inventore.
+              {description}
             </p>
             <strong className="mt-2 text-gray-800">Downloads</strong>
             <div className="mb-3 mt-1 w-full border border-gray-300" />
