@@ -58,7 +58,7 @@ export function NavBanner({ setOrder, setFilter }: NavBannerProps) {
             />
           ))}
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4" data-testid="select-ordered">
           <Select
             selectedItem={selectedItem}
             setSelectedItem={setSelectedItem}
