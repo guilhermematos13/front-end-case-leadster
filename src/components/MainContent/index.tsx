@@ -78,8 +78,14 @@ export function MainContent() {
         </div>
         <div className="mb-10 mt-16 border border-gray-300" />
         <div className="mb-20 flex w-full items-center justify-center">
-          <strong className="mr-4 font-semibold text-gray-800">Página</strong>
-          {renderPageButtons()}
+          {totalPage > 1 && (
+            <>
+              <strong className="mr-4 font-semibold text-gray-800">
+                Página
+              </strong>
+              {renderPageButtons()}
+            </>
+          )}
           {dataModal && <Modal {...dataModal} />}
         </div>
       </div>
