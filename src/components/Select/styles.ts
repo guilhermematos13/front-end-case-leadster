@@ -37,13 +37,13 @@ export const SelectHeader = styled.div<SelectStyledProps>`
   align-items: center;
 
   svg {
-    transform: ${({ isOpen }) => (isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
+    transform: ${({ open }) => (open ? 'rotate(180deg)' : 'rotate(0deg)')};
     transition: all 300ms ease;
   }
 `
 
 export const SelectOptions = styled.div<SelectStyledProps>`
-  display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
+  display: ${({ open }) => (open ? 'block' : 'none')};
   position: absolute;
   margin-top: 10px;
   width: 200px;

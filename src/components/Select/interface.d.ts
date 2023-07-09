@@ -14,5 +14,5 @@ export interface SelectProps {
 }
 
 export interface SelectStyledProps {
-  isOpen?: boolean
+  open?: boolean
 }

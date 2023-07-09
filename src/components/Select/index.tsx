@@ -48,14 +48,15 @@ export const Select = forwardRef(
       <SelectWrapper>
         <SelectLabel>{title}</SelectLabel>
         <SelectStyled ref={ref}>
-          <SelectHeader onClick={toggleSelect} isOpen={isOpen}>
+          <SelectHeader
+            onClick={toggleSelect}
+            open={isOpen}
+            data-testid="select-header"
+          >
             {selectedItem ? getLabelSelected() : placeholder}
             <CaretDown size={20} weight="fill" />
           </SelectHeader>
-          <SelectOptions
-            isOpen={isOpen}
-            className="border border-blue-secondary"
-          >
+          <SelectOptions open={isOpen} className="border border-blue-secondary">
             {options.map((item, index) => (
               <div
                 className="delay-50 cursor-pointer border-b border-b-blue-secondary px-2 py-4 transition-colors ease-in first-of-type:rounded-t-xl last-of-type:rounded-b-xl last-of-type:border-none hover:bg-blue-light"

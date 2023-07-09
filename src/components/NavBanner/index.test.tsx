@@ -28,7 +28,7 @@ describe('Component > NavBanner', () => {
   })
 
   it('should be click filter on NavBanner component (unselected)', async () => {
-    jest.spyOn(React, 'useState').mockReturnValue(['Diferent', setState])
+    jest.spyOn(React, 'useState').mockReturnValue(['Diferent Option', setState])
 
     render(<NavBanner setOrder={setOrderFn} setFilter={setFilterFn} />)
 
