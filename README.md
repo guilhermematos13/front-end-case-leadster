@@ -65,4 +65,9 @@ Run Server / Rodar o servidor
 Server creation using json-server
 - Testes unitários / Unitary tests
 
+## Coverage
+![Captura de tela de 2023-07-09 01-06-58](https://github.com/guilhermematos13/front-end-case-leadster/assets/68876798/6df341af-5299-405a-a319-14662d0ff824)
+
+## Preview
+[recording-2023-07-09-01-41-09.webm](https://github.com/guilhermematos13/front-end-case-leadster/assets/68876798/2baffc49-1ad0-4d0d-8ff5-48996c7567f2)
 
